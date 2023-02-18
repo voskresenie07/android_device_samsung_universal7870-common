@@ -13,7 +13,7 @@
 #
 
 # Audio
-vendor/lib/audio.primary.universal7870.so
+vendor/lib/audio.primary.exynos7870.so
 vendor/lib/libaudio-ril.so
 vendor/lib/libaudioroute.so
 vendor/lib/libLifevibes_lvverx.so
@@ -31,12 +31,12 @@ vendor/lib/libtinyalsa.so
 vendor/lib/libvndsecril-client.so
 
 # Bluetooth (aptX)
-product/lib64/libaptX_encoder.so
-product/lib64/libaptXHD_encoder.so
+#product/lib64/libaptX_encoder.so
+#product/lib64/libaptXHD_encoder.so
 
 # Camera
-vendor/lib/hw/camera.universal7870.so
-vendor/lib64/hw/camera.universal7870.so
+vendor/lib/hw/camera.exynos7870.so
+#vendor/lib64/hw/camera.universal7870.so
 vendor/lib/libcamera_client.so
 vendor/lib/libgui.so
 
@@ -56,17 +56,17 @@ vendor/etc/init/init.gps.rc
 vendor/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc
 vendor/lib/libwrappergps.so
 vendor/lib/vendor.samsung.hardware.gnss@2.0.so
-vendor/lib64/hw/android.hardware.gnss@2.0-impl.so
-vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so
-vendor/lib64/libwrappergps.so
-vendor/lib64/vendor.samsung.hardware.gnss@2.0.so
+vendor/lib/hw/android.hardware.gnss@2.0-impl.so
+vendor/lib/hw/vendor.samsung.hardware.gnss@2.0-impl.so
+vendor/lib/libwrappergps.so
+vendor/lib/vendor.samsung.hardware.gnss@2.0.so
 
 # Graphics
 vendor/lib/egl/libGLES_mali.so
-vendor/lib64/egl/libGLES_mali.so
+#vendor/lib64/egl/libGLES_mali.so
 
 # HWC
-vendor/bin/hw/android.hardware.graphics.composer@2.2-service
+vendor/bin/hw/android.hardware.graphics.composer@2.1-service
 vendor/lib/hw/gralloc.default.so
 vendor/lib/hw/gralloc.exynos5.so
 vendor/lib/hw/hwcomposer.exynos5.so
@@ -134,7 +134,7 @@ vendor/lib/hw/memtrack.exynos7870.so
 vendor/firmware/mfc_fw.bin
 
 # Misc
-vendor/bin/sswap
+#vendor/bin/sswap
 vendor/lib/libcsc.so
 vendor/lib/libsecnativefeature.so
 vendor/lib/libuniplugin.so
@@ -160,11 +160,11 @@ vendor/lib/omx/libOMX.Exynos.WMV.Decoder.so
 # RIL
 vendor/bin/cbd
 vendor/bin/hw/rild
-vendor/etc/plmn_delta.bin
-vendor/etc/plmn_delta_attaio.bin
-vendor/etc/plmn_delta_hktw.bin
-vendor/etc/plmn_delta_usacdma.bin
-vendor/etc/plmn_delta_usagsm.bin
+#vendor/etc/plmn_delta.bin
+#vendor/etc/plmn_delta_attaio.bin
+#vendor/etc/plmn_delta_hktw.bin
+#vendor/etc/plmn_delta_usacdma.bin
+#vendor/etc/plmn_delta_usagsm.bin
 vendor/etc/plmn_se13.bin
 vendor/lib/libfloatingfeature.so
 vendor/lib/libfloatingfeature.so
